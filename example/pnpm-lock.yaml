@@ -1,0 +1,6 @@
+lockfileVersion: '6.0'
+
+dependencies:
+  fanbook-mp-sdk:
+    specifier: link:..
+    version: link:..
