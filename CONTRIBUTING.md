@@ -20,25 +20,25 @@
 - 非线性历史记录
 - 强制推送
 
-仓库有且仅有两个分支：`main` 和 `stable`。
+仓库有且仅有三种分支：`main` `stable` `v*`。
 
-需要合并的更改只能合并到 `main` 分支，`stable` 分支不允许合并 PR 或人为推送 commit。
+需要合并的更改只能合并到 `main` 分支，其他分支不允许合并 PR。
 
-`main` 分支上的更改发布后，`stable` 分支 fast-foward 到 `main` 分支。
+发版后，从 `main` 创建出 `v版本号` 分支，`stable` 分支 fast-foward 到 `main` 分支。
 
-这样做的目的是为了让 `main` 分支有[最新部署的文档站点](https://main--fanbook-api-node-sdk.netlify.app/)（包含未发布的更改）。
+这样做是为了保留每个版本的文档站点，和[最新未发布的文档站点](https://main--fanbook-mp-sdk.netlify.app/)。
 
 ## 报告 Issues
 
-我们使用 [Github issues](https://github.com/DevOpen-Club/api-node-sdk/issues) 进行 bug 报告和功能建议。
+我们使用 [GitHub issues](https://github.com/DevOpen-Club/mp-sdk/issues) 进行 bug 报告和功能建议。
 
-在报告 bug 之前，请确保已经搜索过类似的 [issue](https://github.com/DevOpen-Club/api-node-sdk/issues)，以防重复报告。
+在报告 bug 之前，请确保已经搜索过类似的 [issue](https://github.com/DevOpen-Club/mp-sdk/issues)，以防重复报告。
 
 对于 bug 报告，请提供最简的复现步骤和平台信息。对于功能建议，请指出你想要的更改和期望。
 
 ## 提交 Pull Request
 
-1. Fork [此仓库](https://github.com/DevOpen-Club/api-node-sdk)；
+1. Fork [此仓库](https://github.com/DevOpen-Club/mp-sdk)；
 2. Clone 上一步 fork 出的仓库到本地；
 3. 运行 `pnpm install` 初始化开发环境；
 4. 从 `main` 创建分支；
