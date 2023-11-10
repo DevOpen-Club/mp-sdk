@@ -16,6 +16,8 @@ jobs:
           fetch-depth: 0
       - name: 同步分支
         run: |
+          git branch -c ${{ github.ref_name }}
+          git push origin ${{ github.ref_name }}
           git checkout -b stable origin/stable
           git merge --ff-only origin/main
           git push origin stable
