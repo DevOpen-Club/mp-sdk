@@ -1,0 +1,37 @@
+name: 发布更新
+on:
+  push:
+    tags:
+      - v*
+  workflow_dispatch:
+jobs:
+  package:
+    name: 发布 npm 包
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v3
+        with:
+          fetch-depth: 0
+      - name: 同步分支
+        run: |
+          git checkout -b stable origin/stable
+          git merge --ff-only origin/main
+          git push origin stable
+      - uses: actions/setup-node@v3
+        with:
+          node-version: 18.15.0
+          registry-url: https://registry.npmjs.org
+      - uses: pnpm/action-setup@v2
+        with:
+          version: 8.3.1
+      - name: 构建
+        run: |
+          pnpm bootstrap
+          pnpm build
+      - name: 上传更新包
+        run: |
+          pnpm publish --no-git-checks
+        env:
+          NODE_AUTH_TOKEN: ${{ secrets.NPM_ACCESS_TOKEN }}
