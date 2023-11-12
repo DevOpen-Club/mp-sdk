@@ -5,6 +5,7 @@
   "packageManager": "pnpm@8.3.1",
   "main": "lib/fanbook-1.0.0.min.js",
   "module": "es/fanbook-1.0.0.min.js",
+  "types": "es/fanbook-1.0.0.min.d.ts",
   "files": [
     "es",
     "lib",
