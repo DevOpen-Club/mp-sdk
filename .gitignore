@@ -43,10 +43,5 @@ node_modules
 !.vscode/extensions.json
 
 # 自动生成
-.husky
-lib
-es
 docs/.vitepress/dist
 docs/.vitepress/cache
-docs/api/**
-!docs/api/index.md
