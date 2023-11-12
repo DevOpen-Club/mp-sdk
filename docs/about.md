@@ -12,7 +12,7 @@ const members = [{
 
 # 关于
 
-本项目是对 Fanbook 小程序 JavaScript SDK 的搬运和类型填充。
+本项目是对 Fanbook 小程序 JavaScript SDK 的搬运、类型填充、资源整理。
 
 本项目非 Fanbook 官方项目。
 

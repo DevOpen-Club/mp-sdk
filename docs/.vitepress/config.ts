@@ -17,12 +17,13 @@ export default defineConfig({
       text: '入门',
       items: [
         { text: '快速开始', link: '/quick-starter.html' },
+        { text: 'API 文档', link: '/api/' },
         { text: '示例', link: '/examples.html' },
       ],
     }, {
       text: '其他',
       items: [
-        { text: '更新日志', link: '/changelog.html' },
+        { text: '历史版本', link: '/versions.html' },
         { text: '贡献', link: '/contributing.html' },
       ],
     }],
