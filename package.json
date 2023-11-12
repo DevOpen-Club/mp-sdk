@@ -16,10 +16,13 @@
   "author": "DevOpen Club",
   "license": "MIT",
   "devDependencies": {
+    "copyfiles": "^2.4.1",
     "ts-node": "^10.9.1",
+    "typescript": "^5.2.2",
     "vitepress": "1.0.0-rc.25"
   },
   "scripts": {
+    "build": "sh scripts/build.sh",
     "docs:dev": "vitepress dev docs --port 8412",
     "docs:build": "vitepress build docs",
     "docs:preview": "vitepress preview docs"
