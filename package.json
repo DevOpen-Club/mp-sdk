@@ -3,7 +3,8 @@
   "description": "Fanbook 小程序客户端 SDK",
   "version": "0.0.1",
   "packageManager": "pnpm@8.3.1",
-  "main": "src/fanbook-1.0.0.min.js",
+  "main": "lib/fanbook-1.0.0.min.js",
+  "module": "es/fanbook-1.0.0.min.js",
   "files": [
     "es",
     "lib",
