@@ -19,26 +19,26 @@ Fanbook 提供了小程序能力，并且公开了[小程序 SDK](https://open.f
 
 > **Warning**
 >
-> 安装时务必带上 `--save-exact` 选项以锁定版本号！
+> 安装时务必带上 `-E` 选项以锁定版本号！
 >
 > 原版 SDK 即使是修订版本号之间，差异也非常之大。而本包版本号与原版 SDK 同步。
 
 ## npm
 
 ```bash
-npm install fanbook-mp-sdk --save-exact
+npm install fanbook-mp-sdk -E
 ```
 
 ## yarn
 
 ```bash
-yarn add fanbook-mp-sdk --save-exact
+yarn add fanbook-mp-sdk -E
 ```
 
 ## pnpm
 
 ```bash
-pnpm add fanbook-mp-sdk --save-exact
+pnpm add fanbook-mp-sdk -E
 ```
 
 # 如何使用
