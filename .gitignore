@@ -43,5 +43,7 @@ node_modules
 !.vscode/extensions.json
 
 # 自动生成
+es
+lib
 docs/.vitepress/dist
 docs/.vitepress/cache
