@@ -1,6 +1,8 @@
 # oAuth
 
-重新进行 OAuth2.0 授权流程。
+如果在 Fanbook 应用内，啥都不干。
+
+否则，弹窗请求用户授权，获取 OAuth2.0 授权码。
 
 ## 类型
 
@@ -17,7 +19,7 @@ function oAuth(params: {
 
 ## 参数
 
-`params.oAuthUrl`：跳转到的授权地址。
+`params.oAuthUrl`：打开的授权地址。
 
 ## 返回值
 

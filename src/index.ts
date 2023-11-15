@@ -1,5 +1,5 @@
 declare namespace fb {
-  let version: 'v0.0.1';
+  let version: '1.0.1';
   let platform: import('./utils').Platform;
 
   function init(params?: { success?: () => void }): void;
