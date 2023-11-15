@@ -4,7 +4,7 @@
   "version": "0.0.1",
   "packageManager": "pnpm@8.3.1",
   "main": "assets/fanbook-1.0.0.min.js",
-  "types": "src/index.d.ts",
+  "types": "es/index.d.ts",
   "files": [
     "assets",
     "es",
