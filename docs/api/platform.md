@@ -6,13 +6,13 @@
 
 `number`
 
-实际上是枚举值，类型为 `fanbook-mp-sdk/utils.ts` 导出的的 `Platform`。
+实际上是枚举值，类型为 `fanbook-mp-sdk/es/utils.ts` 导出的的 `Platform`。
 
 ## 示例
 
 ```ts
 import 'fanbook-mp-sdk';
-import { Plaform } from 'fanbook-mp-sdk/utils';
+import { Plaform } from 'fanbook-mp-sdk/es/utils';
 
 if (window.fb.platform === Platform.APP) {
   console.log('在 Fanbook 中');
