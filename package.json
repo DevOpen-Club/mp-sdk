@@ -1,9 +1,9 @@
 {
   "name": "fanbook-mp-sdk",
   "description": "Fanbook 小程序客户端 SDK",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "packageManager": "pnpm@8.3.1",
-  "main": "assets/fanbook-1.0.1.min.js",
+  "main": "assets/fanbook-1.0.2.min.js",
   "types": "es/index.d.ts",
   "files": [
     "assets",
