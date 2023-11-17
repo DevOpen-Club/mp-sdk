@@ -17,6 +17,6 @@ window.fb.init({
 API 列表：
 
 - [`window.fb.version`](./version.md)
-- [`window.fb.platform`](./platform.md)
 - [`window.fb.init`](./init.md)
+- [`window.fb.getPlatform`](./getPlatform.md)
 - [`window.fb.oAuth`](./oAuth.md)
